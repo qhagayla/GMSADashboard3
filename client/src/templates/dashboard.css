@@ -1,0 +1,26 @@
+.dashboard-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+}
+
+.content-top {
+    background-color: #feecd2;
+    padding: 20px;
+    color: #239263;
+    border-radius: 25px;
+    display: flex;
+    align-items: center; /* Centering vertically */
+    justify-content: space-between; /* Distributing items evenly */
+    margin-right: 130px;
+}
+
+.content-top img[src*="dashboard-top.png"] {
+    margin-left: 20px;
+}
+
+.dashboard-content {
+    margin-top: 20px; /* Adjust spacing between content sections */
+}
+
+/* Add more styles as needed */

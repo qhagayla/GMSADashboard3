@@ -1,0 +1,52 @@
+/* settings.css */
+
+.doctor-profile {
+    /* Styles for the doctor profile */
+    background-image: url('../assets/DoctorProfile.png');
+    background-size: cover;
+    background-position: center right; /* Adjusted background position */
+    height: 100vh; 
+    display: flex; /* Add flexbox */
+    flex-direction: column; /* Display children in a column */
+    align-items: center; /* Align items in the center horizontally */
+    padding: 10px; /* Increased padding for better spacing */
+}
+
+.details-doctor-profile {
+    /* Styles for the details inside the doctor profile */
+    color: #239263;
+    font-size: 20px; /* Decrease font size for better readability */
+    text-align: center;
+    background-color: #ffda4f;
+    border-radius: 25px; /* Adjusted border radius */
+    padding: 10px; /* Increased padding for better spacing */
+    width: 20%;
+    margin-bottom: 10px; /* Add some spacing between sections */
+}
+
+.details-doctor {
+    /* Styles for the additional details section */
+    color: #239263;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 40%;
+    margin-bottom: 10px; /* Add some spacing between sections */
+}
+
+/* Styles for the "Change Password" button */
+.details-doctor button {
+    background-color: #239263;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details-doctor button:hover {
+    background-color: #187a49;
+}

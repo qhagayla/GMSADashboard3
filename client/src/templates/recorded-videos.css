@@ -1,0 +1,108 @@
+/* recordedvideos.css */
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px;
+  }
+  
+
+.video-list-item {
+    flex: 1 1 100%; /* Make each item take up full width */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Align items vertically and distribute space between them */
+    margin-left: 200px; 
+    margin-right: 80px;
+    background-color: #f0f0f0; /* Light grey background */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Add padding for spacing */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.video-list-item .caption {
+    color: black;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+}
+
+.upload-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-remarks-button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-button {
+  background-color: #f44336; /* Red */
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.remark-button {
+  background-color: #555555; /* Dark Grey */
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-container button {
+  margin-left: 10px; /* Adjust spacing between buttons */
+}
+
+.upperbuttons {
+  margin-left: 50px;  
+  margin-bottom: 50px;
+}
+
+
+.video-list-item .caption {
+  color: black;
+  margin-bottom: 10px; /* Add spacing between caption and client */
+  text-align: center; /* Center the text */
+}
+
+.video-list-item .client {
+  font-weight: bold; /* Make the client name bold */
+}

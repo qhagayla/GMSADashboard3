@@ -1,0 +1,43 @@
+/*Delete Form*/
+.delete-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 998;
+}
+
+.delete-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.delete-form p {
+  margin-bottom: 10px;
+  color: black;
+}
+
+.delete-form-buttons button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-form-buttons button:first-child {
+  background-color: #dc3545; /* Bootstrap's danger color */
+  color: white;
+}
+
+.delete-form-buttons button:last-child {
+  background-color: #007bff; /* Bootstrap's primary color */
+  color: white;
+}

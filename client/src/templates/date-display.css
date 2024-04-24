@@ -1,0 +1,13 @@
+.date-wrapper {
+    border-radius: 25px;
+    border: 1px solid #ffda4f;
+    padding: 10px;
+    background-color: #ffda4f;
+  }
+  .dashboard-date {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 10px;
+    
+  }
